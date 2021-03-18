@@ -1,11 +1,13 @@
 import React from "react";
+import ParticleBackground from "./Particles";
 
 export default function Home() {
 	return (
 		<main>
-			<section className="relative flex justify-center  lg:pt-64 px-8">
-				<h1 className="text-6xl ">Welcome to my page!</h1>
-			</section>
+			<div className="p-10  container relative">
+				<header className="text-6xl text-center tracking-widest underline ">A S H T I A N Y</header>
+				<ParticleBackground />
+			</div>
 		</main>
 	);
 }

@@ -13,6 +13,7 @@ import About from "./About";
 import SinglePost from "./SinglePost";
 import Post from "./Post";
 import Project from "./Project";
+import Resume from "../components/Amir_Ashtiany_Resume[915].pdf";
 
 
 class Navbars extends React.Component {
@@ -29,7 +30,8 @@ class Navbars extends React.Component {
 									<Nav className="mr-auto">
 										<Nav.Link href="/post">Blog Post</Nav.Link>
 										<Nav.Link href="/project">Projects</Nav.Link>
-										<Nav.Link href="/about">About Me!</Nav.Link>
+										<Nav.Link href="/about">About Me</Nav.Link>
+										<Nav.Link target="_blank" href={Resume}>Resume</Nav.Link>
 									</Nav>
 									<Nav className="ml-auto">
 										<Nav.Link href="/https://github.com/Alexfit4">
