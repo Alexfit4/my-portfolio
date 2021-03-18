@@ -28,8 +28,8 @@ export default function Project() {
 			.catch(console.error);
 	}, []);
 	return (
-		<main className="">
-			<section className="container mx-auto">
+		<main className="relative">
+			<section className="container mx-auto relative">
 				<h1 className="text-5xl flex justify-center">My Projects</h1>
 				<h2 className="text=lg text-gray-600 flex justify-center mb-12">
 					{" "}

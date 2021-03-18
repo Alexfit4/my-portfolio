@@ -25,9 +25,9 @@ export default function Post() {
 	}, []);
 
 	return (
-		<main>
-			<section className="container mx-auto">
-				<h1 className="text-5xl text-white flex justify-center">Blog Posts Page</h1>
+		<main className="relative">
+			<section className="container mx-auto relative">
+				<h1 className="text-5xl flex justify-center">Blog Posts Page</h1>
 				<h2 className="text-lg text-white flex justify-center mb-12">
 					Welcome to my page of blog posts
 				</h2>
